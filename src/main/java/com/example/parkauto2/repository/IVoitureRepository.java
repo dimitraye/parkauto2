@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IVoiture extends JpaRepository<Voiture, Long> {
+public interface IVoitureRepository extends JpaRepository<Voiture, Long> {
 }

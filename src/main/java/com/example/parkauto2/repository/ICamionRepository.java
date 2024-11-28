@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ICamion extends JpaRepository<Camion, Long> {
+public interface ICamionRepository extends JpaRepository<Camion, Long> {
 }
